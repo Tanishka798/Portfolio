@@ -9,7 +9,7 @@ import resume from '@/assets/resume.pdf.asset.json';
 import internshipCertificate from '@/assets/internship_certificate.jpeg';
 
 export const Route = createFileRoute('/')({
- head:()=>({meta:[{title:'Tanishka Gupta — AI Systems, Generative AI & Product Design'},{name:'description',content:'Tanishka Gupta is an AI/ML & Generative AI builder in Greater Noida. Explore RAG systems, AI agents, deep learning projects, product research, and design.'},{property:'og:title',content:'Tanishka Gupta — AI/ML & Generative AI Builder'},{property:'og:description',content:'Building intelligent systems that solve real-world problems. AI products, agent workflows, and product-oriented design.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),
+ head:()=>({meta:[{title:'Portfolio'},{name:'description',content:'Tanishka Gupta is an AI/ML & Generative AI builder in Greater Noida. Explore RAG systems, AI agents, deep learning projects, product research, and design.'},{property:'og:title',content:'Tanishka Gupta — AI/ML & Generative AI Builder'},{property:'og:description',content:'Building intelligent systems that solve real-world problems. AI products, agent workflows, and product-oriented design.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),
  component:Portfolio,
 });
 const nav = ['Home','About','Skills','Projects','Experience','Achievements','Contact'];
